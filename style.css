@@ -1,0 +1,44 @@
+/* body {
+    margin: 10px;
+} */
+
+.hero {
+    height: 200px;
+   background-image: url( https://i.pinimg.com/736x/d4/9d/ea/d49deabc7aa49888cb810595bf72a409.jpg);
+    background-size:contain;
+    background-position:cover;
+
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    text-align:left;
+    
+
+
+
+}
+
+body{
+/* background-image: url(https://www.sketchappsources.com/resources/source-image/flags-by-lightspeed-1.0.gif);
+ */
+ background: rgb(250,144,0);
+ background: linear-gradient(28deg, rgba(250,144,0,1) 0%, rgba(255,49,0,1) 51%, rgba(255,1,0,1) 82%);
+ background-size:contain;
+
+}
+
+
+button, input[type= "submit"]{
+    background-color: rgb(255, 255, 255);
+}
+
+button:hover, input[type= "submit"]:hover{
+    background-color: rgb(240, 82, 9);
+    transform: scale(1.1);
+    border-style: double;
+}
+
+#countrySearch{
+    background-color: rgb(238, 166, 103);
+}
